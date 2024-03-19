@@ -14,6 +14,7 @@ Before you start, ensure that you have the following requirements settled on you
 * Firebase
 
 * You can download the checkpoint from the [link](https://drive.google.com/drive/folders/1sOk9lTcvMsElA9R-gNjly1mOLAETxOZQ?usp=drive_link). Please insert the checkpoint folder in the main folder.
+* You can download the certification from the [link](https://drive.google.com/file/d/1GujDKgWTPd1mO3ZTHnpSUTM6vyX33EPW/view?usp=drive_link). It is also possible to regenerate one in firebase website. Please insert the certification file in the main folder.
 ## Installation
 ## Kaldi
 Follow the instructions provided in the [Kaldi installation guide](https://medium.com/@m.chellaa/install-kaldi-asr-on-ubuntu-830418a800b5)
