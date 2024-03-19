@@ -1,7 +1,7 @@
 
 
 # Environment Setup Guide
-## introduction
+## Introduction
 This repository provides step-by-step instructions to help you set up a Linux-based environment from scratch. Follow the guide below to build your environment and run the server.
 
 ## Requirement
