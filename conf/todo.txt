@@ -1,0 +1,11 @@
+decode_dir: 'run'
+vocab_file: 'units'
+
+#[test]
+decode_dir: 'run'
+test_scp_path: 'run/fbank.scp' #fbank,mfcc
+test_trans_path: 'transcript_dict.json'
+decode_type: "Greedy" #Beam or Greedy
+beam_width: 10
+lm_alpha: 0
+lm_path: 'lm_phone_bg.arpa'
