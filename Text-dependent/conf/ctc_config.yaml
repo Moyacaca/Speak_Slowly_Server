@@ -1,0 +1,62 @@
+activation_function: relu
+add_att: true
+add_cnn: true
+att_num_hiddens: 32
+batch_norm: true
+batch_size: 32
+beam_width: 10
+bidirectional: true
+channel: '[(1, 32), (32, 32)]'
+checkpoint_dir: checkpoint/
+decode_dir: 'run'
+decode_type: Greedy
+drop_out: 0.3
+embedding_dim: 64
+embeds_rnn_hidden_size: 16
+end_adjust_acc: 2
+exp_name: 0419_nSpecAug_fbank_81_CNN_LSTM4-512_CTC_nOld_ST3_embeds64x16_att32_drop0.3
+feature_dim: 81
+feature_type: fbank
+init_lr: 0.001
+kernel_size: '[(3, 3), (3, 3)]'
+layers: 2
+left_ctx: 0
+lm_alpha: 0
+lm_path: 'lm_phone_bg.arpa'
+lr_decay: 0.5
+mel: false
+n_downsample: 2
+n_skip_frame: 2
+num_embeddings: 40
+num_epoches: 100
+num_workers: 1
+old_data: false
+one_ST_json: false
+output_class_dim: 36
+padding: '[(1, 1), (1, 1)]'
+pooling: None
+prep_seed: 42
+right_ctx: 2
+rnn_hidden_size: 512
+rnn_input_size: 243
+rnn_layers: 4
+rnn_type: nn.LSTM
+seed: 42
+shuffle_train: true
+spec_augmentation: false
+stride: '[(1, 2), (2, 2)]'
+tensorboard_path: ./tensorboard/log
+test_lab_path: data/dev/phn_text
+test_scp_path: 'run/fbank.scp' #fbank,mfcc
+test_trans_path: 'transcript_dict.json'
+train_lab_path: data/train/phn_text
+train_scp_path: data/train/fbank.scp
+train_trans_path: data/train/transcript_phn_text
+two_ST_json: false
+use_gpu: true
+valid_lab_path: data/dev/phn_text
+valid_scp_path: data/dev/fbank.scp
+valid_trans_path: data/dev/transcript_phn_text
+verbose_step: 50
+vocab_file: 'units'
+weight_decay: 0.0005
